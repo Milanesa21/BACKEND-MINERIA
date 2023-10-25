@@ -2,14 +2,6 @@ import { DataTypes } from "sequelize";
 import sequelize from "../database/sequelize.js"
 
 const Encuesta = sequelize.define('Encuesta', {
-    nombre: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      apellido: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
       edad: {
         type: DataTypes.INTEGER,
         allowNull: false,
